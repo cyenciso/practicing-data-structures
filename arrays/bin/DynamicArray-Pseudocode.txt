@@ -1,0 +1,31 @@
+structure DynamicArray:
+	variables:
+		base_array
+		capacity
+		length
+	functions:
+		add:
+			input: element
+			
+			if length == capacity,
+				double array
+				change capacity
+			add element to end
+			change length
+		add:
+			input: element, index
+			
+			if length == capacity,
+				double array
+				change capacity
+			shift elements forward
+			add element to array at index
+			
+		remove:
+			input: element
+			
+			if element in array
+				find index
+				shift elements backward
+				
+		
