@@ -1,0 +1,10 @@
+structure DynamicArray:
+	variables:
+
+	functions:
+		add:
+			
+		remove:
+
+				
+		
