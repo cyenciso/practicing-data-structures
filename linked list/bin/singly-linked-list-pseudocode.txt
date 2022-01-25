@@ -1,0 +1,29 @@
+structure SinglyLinkedList:
+	variables:
+	head
+	tail
+	
+	functions:
+		add:
+			input: node
+			
+			IF head is null,
+				set head to node
+				set tail to node
+				
+			IF head is not null,
+				WHILE current node's next node is not null
+					set current node to next node
+				set current node's next node to node being added
+				set tail to node being added	
+		remove:
+			IF head is not null,
+				WHILE current node's next node is not null
+					IF next node is tail
+						set current node's next node to null
+						set tail to current node
+						BREAK
+					set current node to next node
+
+				
+		
