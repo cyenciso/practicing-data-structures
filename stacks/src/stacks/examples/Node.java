@@ -1,4 +1,5 @@
-package ll.examples;
+package stacks.examples;
+
 
 public class Node<T> {
 	

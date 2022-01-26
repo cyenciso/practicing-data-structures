@@ -1,0 +1,12 @@
+structure Stack:
+	variables:
+	stack
+	top
+	
+	functions:
+		push:
+			input: data
+		
+		pop:
+		
+		peek:
